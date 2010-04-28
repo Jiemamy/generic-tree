@@ -5,17 +5,16 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.jiemamy</groupId>
-    <artifactId>master</artifactId>
-    <version>1.1</version>
+    <artifactId>jiemamy-master</artifactId>
+    <version>1.3</version>
   </parent>
   <groupId>org.jiemamy</groupId>
   <artifactId>generic-tree</artifactId>
   <name>Generic Tree Utilities</name>
   <version>0.1.1-SNAPSHOT</version>
-  <url>http://report.jiemamy.org/generic-tree</url>
   <ciManagement>
     <system>hudson</system>
-    <url>http://hudson.jiemamy.org/hudson/job/generic-tree/</url>
+    <url>http://hudson.jiemamy.org/job/generic-tree/</url>
     <notifiers>
       <notifier>
         <sendOnSuccess>false</sendOnSuccess>
@@ -36,9 +35,9 @@
     </developer>
   </developers>
   <scm>
-    <connection>scm:svn:http://svn.sourceforge.jp/svnroot/jiemamy/leto/trunk/generic-tree</connection>
-    <developerConnection>scm:svn:svn+ssh://svn.sourceforge.jp/svnroot/leto/trunk/generic-tree</developerConnection>
-    <url>http://svn.sourceforge.jp/cgi-bin/viewcvs.cgi/leto/trunk/generic-tree/?root=jiemamy</url>
+    <connection>scm:svn:http://svn.jiemamy.org/products/leto/generic-tree/trunk</connection>
+    <developerConnection>scm:svn:http://svn.jiemamy.org/products/leto/generic-tree/trunk</developerConnection>
+    <url>http://fisheye.jiemamy.org/browse/leto/generic-tree/trunk</url>
   </scm>
   <repositories>
     <repository>
@@ -89,7 +88,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.5</version>
+      <version>4.8.1</version>
       <scope>test</scope>
     </dependency>
     <dependency>
