@@ -34,7 +34,7 @@ import org.jiemamy.utils.gtree.model.Value;
  * ただし、値が削除されるような変換ルールがこの過程に存在する場合、
  * 以降のルール適用を行わずに直ちにその値を削除する。
  * </p>
- * @version $Date: 2009-09-29 23:06:33 +0900 (火, 29  9 2009) $
+ * @version $Date$
  * @author Suguru ARAKAWA (Gluegent, Inc.)
  */
 public class Rewriter {

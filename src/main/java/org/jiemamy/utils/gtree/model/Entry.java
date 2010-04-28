@@ -20,7 +20,7 @@ import java.text.MessageFormat;
 
 /**
  * 名前と値のペア。
- * @version $Date: 2009-09-29 23:06:33 +0900 (火, 29  9 2009) $
+ * @version $Date$
  * @author Suguru ARAKAWA
  */
 public final class Entry extends Element implements Comparable<Entry>, Serializable {

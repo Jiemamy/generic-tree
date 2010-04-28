@@ -24,7 +24,7 @@ import org.jiemamy.utils.gtree.model.Value;
 
 /**
  * {@code Generic Tree Notation}によって記述されたテキストから{@link Value}を復元する。
- * @version $Date: 2009-09-21 02:27:46 +0900 (月, 21  9 2009) $
+ * @version $Date$
  * @author Suguru ARAKAWA
  */
 public final class Parser {

@@ -19,7 +19,7 @@ import java.util.concurrent.Callable;
 
 /**
  * POJO.
- * @version $Date: 2009-09-29 23:06:33 +0900 (火, 29  9 2009) $
+ * @version $Date$
  * @author Suguru ARAKAWA
  */
 @SuppressWarnings("all")

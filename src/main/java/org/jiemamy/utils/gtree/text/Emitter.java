@@ -31,7 +31,7 @@ import org.jiemamy.utils.gtree.model.Value.Kind;
 
 /**
  * {@link Value}を{@code Generic Tree Notation}で出力する。
- * @version $Date: 2009-09-29 23:06:33 +0900 (火, 29  9 2009) $
+ * @version $Date$
  * @author Suguru ARAKAWA
  */
 public class Emitter {
@@ -85,7 +85,7 @@ public class Emitter {
 
 	/**
 	 * {@link Value}を{@link PrintWriter}へ出力しながら走査する。
-	 * @version $Date: 2009-09-29 23:06:33 +0900 (火, 29  9 2009) $
+	 * @version $Date$
 	 * @author Suguru ARAKAWA
 	 */
 	private static class PrettyPrintVisitor extends ElementVisitor<Void, PrintWriter, RuntimeException> {

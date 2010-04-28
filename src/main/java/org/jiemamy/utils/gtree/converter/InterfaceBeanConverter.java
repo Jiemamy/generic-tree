@@ -33,7 +33,7 @@ import org.jiemamy.utils.gtree.model.Value;
 /**
  * 任意のオブジェクトがインターフェース上で公開するBean形式のプロパティを元に、
  * {@link Record}を構築する。
- * @version $Date: 2009-09-29 23:06:33 +0900 (火, 29  9 2009) $
+ * @version $Date$
  * @author Suguru ARAKAWA
  */
 public class InterfaceBeanConverter implements ConverterDriver {

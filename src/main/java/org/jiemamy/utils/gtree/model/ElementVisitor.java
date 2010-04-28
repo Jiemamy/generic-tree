@@ -23,7 +23,7 @@ package org.jiemamy.utils.gtree.model;
  * @param <R> 戻り値の型
  * @param <C> コンテキストオブジェクトの型
  * @param <E> 例外の型
- * @version $Date: 2009-09-29 23:06:33 +0900 (火, 29  9 2009) $
+ * @version $Date$
  * @author Suguru ARAKAWA
  */
 public abstract class ElementVisitor<R, C, E extends Throwable> {

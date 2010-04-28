@@ -20,7 +20,7 @@ import java.util.List;
 
 /**
  * ツリー上に出現する値。
- * @version $Date: 2009-09-21 02:27:46 +0900 (月, 21  9 2009) $
+ * @version $Date$
  * @author Suguru ARAKAWA
  */
 public abstract class Value extends Element implements Comparable<Value>, Serializable {
@@ -66,7 +66,7 @@ public abstract class Value extends Element implements Comparable<Value>, Serial
 
 	/**
 	 * 値の種類。
-	 * @version $Date: 2009-09-21 02:27:46 +0900 (月, 21  9 2009) $
+	 * @version $Date$
 	 * @author Suguru ARAKAWA
 	 */
 	public enum Kind {

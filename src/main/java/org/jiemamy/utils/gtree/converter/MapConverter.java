@@ -28,7 +28,7 @@ import org.jiemamy.utils.gtree.model.Value;
  * <p>
  * キーは常に文字列として取り扱う。
  * </p>
- * @version $Date: 2009-09-21 02:27:46 +0900 (月, 21  9 2009) $
+ * @version $Date$
  * @author Suguru ARAKAWA
  */
 public enum MapConverter implements ConverterDriver {

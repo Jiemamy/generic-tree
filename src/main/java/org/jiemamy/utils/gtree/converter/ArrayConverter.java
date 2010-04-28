@@ -23,7 +23,7 @@ import org.jiemamy.utils.gtree.model.Value;
 
 /**
  * 任意の配列を{@link Sequence}に変換する。
- * @version $Date: 2009-09-29 23:06:33 +0900 (火, 29  9 2009) $
+ * @version $Date$
  * @author Suguru ARAKAWA
  */
 public enum ArrayConverter implements ConverterDriver {
