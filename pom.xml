@@ -12,6 +12,10 @@
   <artifactId>generic-tree</artifactId>
   <name>Generic Tree Utilities</name>
   <version>0.1.1-SNAPSHOT</version>
+  <issueManagement>
+    <system>JIRA</system>
+    <url>http://jira.jiemamy.org/browse/GT</url>
+  </issueManagement>
   <ciManagement>
     <system>hudson</system>
     <url>http://hudson.jiemamy.org/job/generic-tree/</url>
