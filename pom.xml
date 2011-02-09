@@ -17,13 +17,13 @@
     <url>http://jira.jiemamy.org/browse/GT</url>
   </issueManagement>
   <ciManagement>
-    <system>hudson</system>
-    <url>http://hudson.jiemamy.org/job/generic-tree/</url>
+    <system>bamboo</system>
+    <url>http://bamboo.jiemamy.org/browse/GT-DEF</url>
     <notifiers>
       <notifier>
         <sendOnSuccess>false</sendOnSuccess>
         <configuration>
-          <recipients>jiemamy-dev@googlegroups.com</recipients>
+          <recipients>jiemamy-notify@googlegroups.com</recipients>
         </configuration>
       </notifier>
     </notifiers>
