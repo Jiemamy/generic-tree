@@ -6,9 +6,8 @@
   <parent>
     <groupId>org.jiemamy</groupId>
     <artifactId>jiemamy-master</artifactId>
-    <version>1.7.1</version>
+    <version>1.7.3</version>
   </parent>
-  <groupId>org.jiemamy</groupId>
   <artifactId>generic-tree</artifactId>
   <name>Generic Tree Utilities</name>
   <version>0.1.1-SNAPSHOT</version>
@@ -132,8 +131,14 @@
  <dependencies>
     <dependency>
       <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
+      <artifactId>junit-dep</artifactId>
       <scope>test</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>org.hamcrest</groupId>
+          <artifactId>hamcrest-core</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
     <dependency>
       <groupId>org.hamcrest</groupId>
